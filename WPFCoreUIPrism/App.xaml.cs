@@ -41,10 +41,6 @@ namespace WPFCoreUIPrism
             moduleCatalog.AddModule<SettingsModule>();
         }
 
-        protected override void OnInitialized()
-        {
-            base.OnInitialized();
-        }
     }
     
 }
