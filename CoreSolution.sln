@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreData", "CoreData\CoreData.csproj", "{760F910C-E08E-4059-85CA-1358F46F4B25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFCoreUIPrism", "WPFCoreUIPrism\WPFCoreUIPrism.csproj", "{AAEDA53A-7963-4EE9-A873-5622BDDACA48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrismModules", "PrismModules", "{E6CDBF8D-61FD-4D92-8110-B60B4C086ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCore.PrismModules.Settings", "PrismModules\WPFCore.PrismModules.Settings\WPFCore.PrismModules.Settings.csproj", "{341CC4CD-E148-419E-8369-41FC10F3871E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCore.PrismModules.DataTransfer", "PrismModules\WPFCore.PrismModules.DataTransfer\WPFCore.PrismModules.DataTransfer.csproj", "{4ADF299A-F7C4-4ACC-B2D7-3A0CB6BB62C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCore.Library", "WPFCore.Library\WPFCore.Library.csproj", "{6CECBC1C-3821-4BE9-86E5-0D29D832EB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCore.Business", "WPFCore.Business\WPFCore.Business.csproj", "{3E399281-7F55-4247-B7CF-60E1325CF5B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{760F910C-E08E-4059-85CA-1358F46F4B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760F910C-E08E-4059-85CA-1358F46F4B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760F910C-E08E-4059-85CA-1358F46F4B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760F910C-E08E-4059-85CA-1358F46F4B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEDA53A-7963-4EE9-A873-5622BDDACA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEDA53A-7963-4EE9-A873-5622BDDACA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEDA53A-7963-4EE9-A873-5622BDDACA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEDA53A-7963-4EE9-A873-5622BDDACA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341CC4CD-E148-419E-8369-41FC10F3871E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341CC4CD-E148-419E-8369-41FC10F3871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341CC4CD-E148-419E-8369-41FC10F3871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341CC4CD-E148-419E-8369-41FC10F3871E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADF299A-F7C4-4ACC-B2D7-3A0CB6BB62C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADF299A-F7C4-4ACC-B2D7-3A0CB6BB62C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADF299A-F7C4-4ACC-B2D7-3A0CB6BB62C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADF299A-F7C4-4ACC-B2D7-3A0CB6BB62C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CECBC1C-3821-4BE9-86E5-0D29D832EB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CECBC1C-3821-4BE9-86E5-0D29D832EB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CECBC1C-3821-4BE9-86E5-0D29D832EB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CECBC1C-3821-4BE9-86E5-0D29D832EB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E399281-7F55-4247-B7CF-60E1325CF5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E399281-7F55-4247-B7CF-60E1325CF5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E399281-7F55-4247-B7CF-60E1325CF5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E399281-7F55-4247-B7CF-60E1325CF5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{341CC4CD-E148-419E-8369-41FC10F3871E} = {E6CDBF8D-61FD-4D92-8110-B60B4C086ADA}
+		{4ADF299A-F7C4-4ACC-B2D7-3A0CB6BB62C3} = {E6CDBF8D-61FD-4D92-8110-B60B4C086ADA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2DB85BB-09B3-4D34-BC2D-CF8C75A412FF}
+	EndGlobalSection
+EndGlobal
