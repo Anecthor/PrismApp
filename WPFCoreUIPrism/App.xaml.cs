@@ -14,6 +14,7 @@ using Prism.Regions;
 using StandardLibrary.Validator;
 using WPFCore.Library;
 using WPFCore.PrismModules.Settings;
+using WPFCore.PrismModules.DataTransfer;
 
 namespace WPFCoreUIPrism
 {
@@ -39,6 +40,7 @@ namespace WPFCoreUIPrism
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule<SettingsModule>();
+            moduleCatalog.AddModule<DataTransferModule>();
         }
 
     }

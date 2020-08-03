@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Prism.Regions;
+using WPFCore.Library;
 
 namespace WPFCoreUIPrism.Views
 {
@@ -27,6 +28,7 @@ namespace WPFCoreUIPrism.Views
         {
             InitializeComponent();
             _regionManager = regionManager;
+            _regionManager.RegisterViewWithRegion(RegionNames.ButtonRegion, typeof(MainButtons));
         }
 
 

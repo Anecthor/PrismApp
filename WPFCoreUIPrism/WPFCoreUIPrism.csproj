@@ -16,7 +16,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CoreData\CoreData.csproj" />
+    <ProjectReference Include="..\PrismModules\WPFCore.PrismModules.DataTransfer\WPFCore.PrismModules.DataTransfer.csproj" />
     <ProjectReference Include="..\PrismModules\WPFCore.PrismModules.Settings\WPFCore.PrismModules.Settings.csproj" />
+    <ProjectReference Include="..\WPFCore.Business\WPFCore.Business.csproj" />
     <ProjectReference Include="..\WPFCore.Library\WPFCore.Library.csproj" />
   </ItemGroup>
 
